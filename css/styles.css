@@ -1,161 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Sacramento&display=swap');
+
 body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: rgb(70, 70, 70);
     background-image: radial-gradient(#F9F9F9 20%, transparent 20%), radial-gradient(#FAFAFA 20%, transparent 20%);
-    background-color: #CDF0EA;
+    background-color: #CDF0EA !important;
     background-position: 0 0, 50px 50px;
+    background-attachment: fixed;
     background-size: 100px 100px;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
-a {
-    color: #11999E;
-    text-decoration: none;
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif;
+#container {
+    background-color: #FFFF;
 }
 
-a:hover {
-    color: #CDF0EA;
+#header {
+    background-color: #CDF0EA;
 }
 
 h1 {
-    /**100% = 16px 
-    90px/16*100 = 562,5%
-
-    16px = 100% = 1em
-    90px = 5.625em**/
-    color: #4ac4af;
-    font-size: 5.625rem;
-    margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    
+    font-family: 'Sacramento', cursive !important;
+    font-size: 5.625vw !important;
+    margin-top: 3vw !important;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.5vw !important;
+    margin-bottom: 3vw !important;
+}
+
+h1,
+h2 {
     color: #4ac4af;
-    font-weight: normal;
-    
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+table svg {
+    color: #ffda2d;
 }
 
-hr {
-    border-top: 0px;
+blockquote p {
+    font-size: 16px;
 }
 
-p {
-    line-height: 2;
+#footer {
+    background-color: #4ac4af;
 }
 
-.top-container {
-    background-color: #CDF0EA;
-    position: relative;
-    padding-top: 200px;
+#footer svg {
+    color: #F9F9F9;
+    margin: 10px;
 }
 
-.profile {
-    width: 50%;
-    margin: auto;
+#footer svg:hover {
+    color: #8cd8cb;
 }
 
-.middle-container {
-    display: inline-block;
-    background-color: #EAF6F6;
+#footer p {
+    color: #F9F9F9;
 }
-
-.bottom-container {
-    background-color: #66BFBF;
-    padding: 25px;
-    color: #EAF6F6;
-}
-
-.contact-me {
-    margin: 100px auto 100px auto;
-    width: 50%;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 450px;
-    
-}
-
-.flowers-left {
-    width: 250px;
-    margin-right: 100px;
-    margin-bottom: -5px;
-}
-
-.trees {
-    margin-bottom: -8px;
-}
-
-.flowers-right {
-    width: 250px;
-    margin-left: 100px;
-    margin-bottom: -5px;
-}
-
-.skills {
-    margin-top: 100px;
-}
-
-.skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-}
-
-.girl-img {
-    margin-top: 100px;
-} 
-
-.coding-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
- .pancakes-img {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-}
-
-.BUTTON_GJY {
-    background: #66BFBF;
-    background-image: -webkit-linear-gradient(top, #66BFBF, #138787);
-    background-image: -moz-linear-gradient(top, #66BFBF, #138787);
-    background-image: -ms-linear-gradient(top, #66BFBF, #138787);
-    background-image: -o-linear-gradient(top, #66BFBF, #138787);
-    background-image: -webkit-gradient(to bottom, #66BFBF, #138787);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 10px;
-    color: #EAF6F6;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 10px;
-    border: solid #34B8B8 1px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    margin: 25px auto 0px auto;
- }
