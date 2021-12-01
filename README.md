@@ -1,1 +1,1 @@
-https://calandile.github.io/cv_main/
+https://calandile.github.io/cv-main/
